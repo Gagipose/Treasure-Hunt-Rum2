@@ -78,6 +78,49 @@
   background-color: red;
 }
 
+/* TREASURE 6 */
+#treasure5 {
+  width: 50px;
+  height: 30px;
+  transition: width 2s;
+}
+
+#treasure5:hover {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(8, 0, 255);
+}
+
+/* TREASURE 7 */
+#treasure4:hover {
+  text-decoration: underline wavy rgba(56, 51, 51, 0.388);
+}
+/* TREASURE 8 */
+#treasure3:active {
+  background-color: black;
+}
+
+/* TREASURE 9 */
+#treasure2 {
+  color: white;
+}
+
+
+#treasure2:hover {
+  color: grey;
+}
+
+
+/* TREASURE 10 */
+
+#treasure10 {
+ display: inline-block;  /* allows scaling */
+ transition: transform 0.3s ease; /* smooth animation */
+}
+#treasure10:hover {
+ transform: scale(7);  /* expands to 150% size */
+}
+
 /* EXTRA FUN STUFF */
 
 .treasure.found {
